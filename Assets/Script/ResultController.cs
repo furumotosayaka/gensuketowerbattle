@@ -7,8 +7,8 @@ public class ResultController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log(DataManeger.GetInstance().score);
-        scoreLabel.text = "SCORE:" + DataManeger.GetInstance().score;
+       // Debug.Log(DataManeger.GetInstance().score);
+        //scoreLabel.text = "SCORE:" + DataManeger.GetInstance().score;
 	}
 	
 	// Update is called once per frame

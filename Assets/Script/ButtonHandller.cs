@@ -24,4 +24,9 @@ public class ButtonHandller : MonoBehaviour {
     {
         SceneManager.LoadScene("start");
     }
+
+    public void OnClickURL()
+    {
+        Application.OpenURL("http://www.kanazawa-kagayasai.com/kagayasai/");
+    }
 }
